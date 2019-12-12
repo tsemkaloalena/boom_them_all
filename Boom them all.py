@@ -25,7 +25,7 @@ screen = pygame.display.set_mode(size)
 class Bomb(pygame.sprite.Sprite):
     image = load_image("bomb.png")
     image = pygame.transform.scale(image, image_size)
-    image_boom = load_image("bomb_boom.png", -1)
+    image_boom = load_image("boom.png", -1)
     image_boom = pygame.transform.scale(image_boom, image_size)
 
     def __init__(self, group):
